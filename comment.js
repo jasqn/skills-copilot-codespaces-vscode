@@ -11,4 +11,4 @@ http.createServer(function (req, res) {
     var filename = "." + q.pathname;
     if (filename == './') {
         filename = './index.html';
-    }
+    }}); // Add closing parenthesis here
